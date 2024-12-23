@@ -1,0 +1,95 @@
+      
+        /* General reset */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        /* Body and background */
+        body {
+            background: url('uploads/ba.jpg') no-repeat center center fixed;
+            background-size: cover;
+          font-family: 'Arial', sans-serif;
+          background-color: #f7f9fc;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+        }
+        
+        /* Form container */
+        .container {
+          background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          padding: 30px;
+          width: 320px;
+          max-width: 90%;
+          text-align: center;
+        }
+        
+        /* Heading */
+        h2 {
+          text-align: center;
+          color: #333;
+          margin-bottom: 20px;
+        }
+        
+        /* Input and select styles */
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+          width: 100%;
+          padding: 12px;
+          margin-bottom: 15px;
+          font-size: 16px;
+          border: 2px solid #ddd;
+          border-radius: 8px;
+          background-color: #f9f9f9;
+          transition: all 0.3s ease;
+        }
+        
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+          border-color: linear-gradient(135deg, #b8860b, #e6c200);;
+          outline: none;
+          box-shadow: 0 0 5px rgba(92, 184, 92, 0.3);
+        }
+        
+        /* Submit button */
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(135deg, #b8860b, #e6c200); /* Gold gradient */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        button[type="submit"]:hover {
+            background: linear-gradient(135deg, #e6c200, #b8860b); /* Reverse gold gradient */
+        
+        }
+        
+        /* Link */
+        p {
+          text-align: center;
+          margin-top: 10px;
+        }
+        
+        p a {
+          color: linear-gradient(135deg, #b8860b, #e6c200);;
+          text-decoration: none;
+        }
+        
+        p a:hover {
+          text-decoration: underline;
+        }
